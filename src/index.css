@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Ensure the body and html elements fill the viewport */
+html, body {
+  height: 100%; /* Ensure full height */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1a202c; /* Dark background color */
+}
+
+/* Full screen flex container */
+#root {
+  width: 100%;
+  height: 100%; /* Take full height of the screen */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Flexbox for centering content */
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.min-h-screen {
+  min-height: 100vh;
+}
+
+/* Style for the quote container */
+.text-center {
+  text-align: center;
+}
+
+.bg-gray-800 {
+  background-color: #2d3748; /* Dark background for the quote box */
+}
+
+.text-purple-300 {
+  color: #d6bcfa; /* Light purple color for the quote text */
+}
+
+.text-gray-400 {
+  color: #cbd5e0; /* Light gray color for the author */
+}
+
+.shadow-lg {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.max-w-2xl {
+  max-width: 100%;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.max-w-3xl {
+  max-width: 100%;
+}
+
+/* Google search input styling */
+input {
+  background-color: #2d3748; /* Dark background for input */
+  color: #e2e8f0; /* Light gray text color */
+  border: 1px solid #4a5568;
+}
+
+button {
+  background-color: #6b46c1; /* Purple button */
+  color: white;
+}
+
+button:hover {
+  background-color: #553c9a; /* Darker purple on hover */
+}

@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "InspireMe",
+  "version": "1.0",
+  "description": "Get a daily motivational quote on your browser's home screen.",
+  "permissions": [
+    "storage",
+    "activeTab"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    },
+    "default_width": 800,
+    "default_height": 600
+  },
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  }
+}
