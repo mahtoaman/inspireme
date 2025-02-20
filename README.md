@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# Google Chrome extension
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is Google Chrome extension, that sends you random motivational quotes, on every refresh or new tab.
+
+## To test this extension
+
+Clone the repository
 
 ## Available Scripts
 
