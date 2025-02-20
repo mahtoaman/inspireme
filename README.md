@@ -4,7 +4,8 @@ This is Google Chrome extension, that sends you random motivational quotes, on e
 
 ## To test this extension
 
-Clone the repository
+Clone the repository, install packages, run command - npm start
+Or you can run command - npm run build, the load the extension from google chrome web store, then use it.
 
 ## Available Scripts
 
